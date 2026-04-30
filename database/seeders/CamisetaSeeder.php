@@ -15,12 +15,17 @@ class CamisetaSeeder extends Seeder
     public function run(): void
     {
         $placeholder = 'https://via.placeholder.com/400x500?text=Camiseta';
+
         $imagenesPorNombre = [
-            'Jude Bellingham' => 'https://images.openai.com/static-rsc-4/dChrN9gofu8aPQrdlHzBdTtYcTEEn_CtaTGPNos00yIo7hxE-wK1YTIyj8Ntd9inPIU9rk4A1LlMHlqAJKkYPM0HDP55z5T6INfE4LnqBFpAeHe5nmWjF3hr4w9XKrTOYIF8w_2aONI5_wmKaLdkPWhiEbYIbKRSaqyNGrcC9ik?purpose=inline',
-            'Vinicius Jr' => 'https://www.sportline.cr/media/catalog/product/i/u/iu5011_apparel-front-center-view.jpg?optimize=medium&bg-color=255,255,255&fit=bounds&height=&width=&canvas=:',
-            'Robert Lewandowski' => 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/barcelona-home-jersey.jpg',
+            'Jude Bellingham' => 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Real_Madrid_Camiseta_2024.png',
+        
+            'Vinicius Jr' => 'https://upload.wikimedia.org/wikipedia/commons/5/5f/Real_Madrid_home_jersey_2024.png',
+        
+            'Robert Lewandowski' => 'https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,q_auto:eco/fc-barcelona-2024-home.jpg',
+        
             'Erling Haaland' => 'https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa/global/770438/01/fnd/PNA/fmt/png',
-            'Lionel Messi' => 'https://acdn-us.mitiendanube.com/stores/002/322/390/products/camisa-inter-miami-home-messi1-bb6595c5fab7b8420217428538327571-1024-1024.webp',
+        
+            'Lionel Messi' => 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPwJRyM98EWBFNMlsrlpoUgQ__fXTQC5d75w&s',
         ];
 
         $catalogo = [
