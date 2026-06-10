@@ -53,7 +53,7 @@ class CamisetaApiController extends Controller
         }
 
         return response()->json(
-            $query->orderByDesc('id_camiseta')->paginate(9)
+            $query->orderByDesc('id_camiseta')->paginate(6)
         );
     }
 
